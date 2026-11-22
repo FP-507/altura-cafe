@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Altura · Café de especialidad de Boquete</title>
+  <meta name="description" content="Café de altura cultivado a 1 700 metros en las faldas del Volcán Barú. Tostado cada semana y enviado a tu puerta.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <header class="nav" id="nav">
+    <a href="#" class="logo" aria-label="Altura, inicio">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M4 32 L16 12 L22 21 L27 15 L36 32 Z" fill="currentColor"/><circle cx="29" cy="9" r="3" fill="var(--terracota)"/></svg>
+      Altura
+    </a>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="#origen">Origen</a></li>
+        <li><a href="#cafes">Cafés</a></li>
+        <li><a href="#suscripcion">Suscripción</a></li>
+        <li><a href="#preparar">Preparar</a></li>
+      </ul>
+    </nav>
+    <a href="#suscripcion" class="boton boton-chico">Suscribirme</a>
+  </header>
+
+  <main id="contenido">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-texto">
+        <p class="sobretitulo revelar">Boquete, Chiriquí · 1 700 msnm</p>
+        <h1 class="revelar">El café sabe<br>mejor <em>cerca<br>de las nubes.</em></h1>
+        <p class="hero-lead revelar">Cultivado a la sombra del Volcán Barú, cosechado a mano y tostado cada lunes. Del cerro a tu taza en menos de una semana.</p>
+        <div class="hero-acciones revelar">
+          <a href="#cafes" class="boton">Ver los cafés</a>
+          <a href="#origen" class="enlace">Conocer la finca →</a>
+        </div>
+      </div>
+      <figure class="hero-arte revelar" aria-hidden="true">
+        <svg viewBox="0 0 520 560">
+          <defs>
+            <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#f2d9b8"/><stop offset="1" stop-color="#e9b98a"/>
+            </linearGradient>
+            <clipPath id="arco"><path d="M20 560 V260 A240 240 0 0 1 500 260 V560 Z"/></clipPath>
+          </defs>
+          <g clip-path="url(#arco)">
+            <rect width="520" height="560" fill="url(#cielo)"/>
+            <circle cx="360" cy="190" r="54" fill="#f7ead6" class="sol"/>
+            <g class="nube nube-1"><ellipse cx="140" cy="200" rx="70" ry="16" fill="#fbf3e7" opacity=".9"/></g>
+            <g class="nube nube-2"><ellipse cx="420" cy="260" rx="56" ry="12" fill="#fbf3e7" opacity=".8"/></g>
+            <path d="M-20 420 L150 250 L230 330 L330 210 L540 430 V560 H-20 Z" fill="#41503f"/>
+            <path d="M-20 470 L110 380 L210 440 L320 360 L540 480 V560 H-20 Z" fill="#2f3d2e"/>
+            <path d="M-20 520 Q130 470 260 510 T540 500 V560 H-20 Z" fill="#1f2a1f"/>
+            <g class="cafetos" fill="#9c3d2a">
+              <circle cx="90" cy="505" r="5"/><circle cx="104" cy="498" r="4"/><circle cx="380" cy="500" r="5"/>
+              <circle cx="396" cy="494" r="4"/><circle cx="250" cy="512" r="4"/>
+            </g>
+          </g>
+          <path d="M20 560 V260 A240 240 0 0 1 500 260 V560" fill="none" stroke="var(--tinta)" stroke-width="2"/>
+        </svg>
+        <figcaption class="sello"><span>Cosecha</span><strong>2026</strong></figcaption>
+      </figure>
+    </section>
+
+    <!-- CIFRAS -->
+    <section class="cifras" aria-label="La finca en cifras">
+      <div class="revelar"><strong data-contar="1700">1 700</strong><span>metros sobre el nivel del mar</span></div>
+      <div class="revelar"><strong data-contar="38">38</strong><span>años cultivando la misma finca</span></div>
+      <div class="revelar"><strong data-contar="86">86</strong><span>puntos SCA en nuestra Geisha</span></div>
+      <div class="revelar"><strong data-contar="7">7</strong><span>días del tueste a tu puerta</span></div>
+    </section>
+
+    <!-- ORIGEN -->
+    <section class="origen" id="origen">
+      <div class="origen-texto">
+        <p class="sobretitulo revelar">Nuestro origen</p>
+        <h2 class="revelar">Cada metro de altura <em>madura el grano más despacio.</em></h2>
+        <p class="revelar">A más altura, las noches son más frías y la cereza tarda más en madurar. Ese tiempo extra concentra azúcares y ácidos: por eso un café de altura es más dulce, más brillante y más complejo.</p>
+        <p class="revelar">Nuestra familia cultiva en las laderas de Alto Quiel desde 1988. Cosechamos solo cerezas rojas, a mano, en varias pasadas por planta.</p>
+      </div>
+      <figure class="altitud revelar" aria-labelledby="alt-titulo">
+        <figcaption id="alt-titulo">Altitud y perfil de taza</figcaption>
+        <svg viewBox="0 0 460 300" role="img" aria-label="A mayor altitud, mayor puntaje de taza: de 80 puntos a 1 200 metros hasta 88 a 1 900 metros">
+          <g class="ejes">
+            <line x1="50" y1="250" x2="440" y2="250"/><line x1="50" y1="30" x2="50" y2="250"/>
+          </g>
+          <g class="grilla">
+            <line x1="50" y1="195" x2="440" y2="195"/><line x1="50" y1="140" x2="440" y2="140"/><line x1="50" y1="85" x2="440" y2="85"/>
+          </g>
+          <g class="etiquetas">
+            <text x="42" y="254" text-anchor="end">80</text><text x="42" y="144" text-anchor="end">84</text><text x="42" y="34" text-anchor="end">88</text>
+            <text x="70" y="272">1 200 m</text><text x="245" y="272" text-anchor="middle">1 550 m</text><text x="430" y="272" text-anchor="end">1 900 m</text>
+          </g>
+          <path class="area" d="M60 238 C 140 220, 200 170, 260 140 S 380 70, 430 52 L430 250 L60 250 Z"/>
+          <path class="linea" d="M60 238 C 140 220, 200 170, 260 140 S 380 70, 430 52"/>
+          <g class="marca-finca">
+            <line x1="365" y1="72" x2="365" y2="250"/>
+            <circle cx="365" cy="72" r="7"/>
+            <text x="365" y="56" text-anchor="middle">Nuestra finca · 1 700 m</text>
+          </g>
+        </svg>
+      </figure>
+    </section>
+
+    <!-- CAFÉS -->
+    <section class="cafes" id="cafes">
+      <div class="seccion-cabecera">
+        <p class="sobretitulo revelar">La cosecha</p>
+        <h2 class="revelar">Tres cafés, <em>tres maneras</em> de conocer la montaña.</h2>
+      </div>
+      <div class="cafes-grid" id="cafes-grid"></div>
+    </section>
+
+    <!-- SUSCRIPCIÓN -->
+    <section class="suscripcion" id="suscripcion">
+      <div class="sus-texto">
+        <p class="sobretitulo revelar">Suscripción</p>
+        <h2 class="revelar">Café recién tostado, <em>sin acordarte de pedirlo.</em></h2>
+        <p class="revelar">Elige tu café, el tamaño y cada cuánto lo quieres. Pausa o cancela cuando quieras, sin cargos.</p>
+        <ul class="beneficios revelar">
+          <li>Envío gratis a todo Panamá</li>
+          <li>15 % de descuento sobre el precio de tienda</li>
+          <li>Tostado el lunes, en tu casa antes del viernes</li>
+        </ul>
+      </div>
+      <form class="configurador revelar" id="configurador" aria-labelledby="conf-titulo">
+        <h3 id="conf-titulo">Arma tu plan</h3>
+        <fieldset>
+          <legend>Café</legend>
+          <div class="opciones" id="op-cafe"></div>
+        </fieldset>
+        <fieldset>
+          <legend>Tamaño</legend>
+          <div class="opciones">
+            <label><input type="radio" name="tamano" value="250" checked><span>250 g<small>~16 tazas</small></span></label>
+            <label><input type="radio" name="tamano" value="500"><span>500 g<small>~33 tazas</small></span></label>
+            <label><input type="radio" name="tamano" value="1000"><span>1 kg<small>~66 tazas</small></span></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Frecuencia</legend>
+          <div class="opciones">
+            <label><input type="radio" name="frecuencia" value="1" checked><span>Cada semana</span></label>
+            <label><input type="radio" name="frecuencia" value="2"><span>Cada 2 semanas</span></label>
+            <label><input type="radio" name="frecuencia" value="4"><span>Cada mes</span></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Molienda</legend>
+          <select name="molienda" aria-label="Molienda">
+            <option>Grano entero</option><option>Espresso (fina)</option><option>V60 / filtro (media)</option><option>Prensa francesa (gruesa)</option>
+          </select>
+        </fieldset>
+        <div class="resumen" aria-live="polite">
+          <div><span class="precio" id="precio">$0</span><span class="por">/ envío</span></div>
+          <p id="detalle-plan"></p>
+        </div>
+        <button class="boton boton-ancho" type="submit">Empezar suscripción</button>
+        <p class="nota" id="nota-envio" role="status"></p>
+      </form>
+    </section>
+
+    <!-- PREPARAR -->
+    <section class="preparar" id="preparar">
+      <div class="seccion-cabecera">
+        <p class="sobretitulo revelar">Guía de preparación</p>
+        <h2 class="revelar">Saca lo mejor de cada grano.</h2>
+      </div>
+      <div class="pestanas revelar" role="tablist" aria-label="Métodos de preparación" id="pestanas"></div>
+      <div class="metodo revelar" id="metodo" role="tabpanel" tabindex="0"></div>
+    </section>
+
+    <!-- TESTIMONIO -->
+    <section class="testimonio">
+      <blockquote class="revelar">
+        <p>“Probé la Geisha en un viaje a Boquete y desde entonces no tomo otro café en la oficina. Llega fresquísimo.”</p>
+        <footer>— Mariela R., suscriptora desde 2025</footer>
+      </blockquote>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div>
+      <a href="#" class="logo">Altura</a>
+      <p>Finca familiar en Alto Quiel, Boquete, Chiriquí.</p>
+    </div>
+    <p class="aviso-portafolio">Marca ficticia creada como proyecto de diseño web por <a href="https://fp-507.github.io/Portafolio/">Fidel Pizart</a>. Los testimonios y precios son de ejemplo.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
