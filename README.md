@@ -33,3 +33,7 @@ app.js       catálogo, configurador, guía con temporizador y animaciones
 ```
 
 > Marca, precios y testimonios ficticios, creados para este proyecto de portafolio.
+
+## Para retomar el proyecto
+
+Arquitectura, decisiones técnicas, cómo extenderlo y pendientes: [DESARROLLO.md](DESARROLLO.md).
