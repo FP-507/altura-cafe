@@ -4,6 +4,10 @@ Sitio web para **Altura**, una marca ficticia de café de altura de Boquete, Pan
 
 **[Ver el sitio en vivo →](https://fp-507.github.io/altura-cafe/)**
 
+![Altura: recorrido por el sitio, configurador de suscripción y guía de preparación con pestañas](media/demo.gif)
+
+*Recorrido por el sitio, el configurador de suscripción con precio en vivo y la guía de preparación.*
+
 ## Dirección de arte
 
 - **Concepto**: "el café sabe mejor cerca de las nubes". La paleta sale de la montaña al atardecer: verde volcán, crema, terracota de cereza madura y dorado.
